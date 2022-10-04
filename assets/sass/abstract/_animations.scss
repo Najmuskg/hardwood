@@ -1,0 +1,55 @@
+@mixin animate-line {
+    background-color: red;
+    bottom: -8px;
+    content: "";
+    height: 3px;
+    right: 0;
+    position: absolute;
+    width: 0;
+    transition: all 0.3s;
+  }
+  
+  @mixin animate-line-hover {
+    left: 0;
+    width: 100%;
+  }
+  
+  @mixin bg-cover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  @mixin d-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  // ===========================
+  // media Query--Responsive
+  // ============================
+  
+  @mixin large-screen {
+    @media (min-width: 1366px) {
+      @content;
+    }
+  }
+  
+  @mixin medium-screen {
+    @media (max-width: 1366px) {
+      @content;
+    }
+  }
+  
+  @mixin tab-screen {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  
+  @mixin mobile-screen {
+    @media (max-width: 576px) {
+      @content;
+    }
+  }
+  

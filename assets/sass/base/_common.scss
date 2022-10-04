@@ -1,0 +1,44 @@
+
+ul{
+    list-style: none;
+    a{
+        text-decoration: none;
+    }
+}
+
+h5{
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    font-family: "Ofelia Std";
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    margin: 0 0 55px 0;
+    text-transform: uppercase;
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: $color--line;
+        top: 45px;
+        right: 567px;
+        width: 144px;
+        height: 4px;
+    }
+}
+
+.btn{
+    text-decoration: none;
+    font-family: 'Ofelia Std';
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    padding: 18px 40px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    &:hover{
+        background-color: $color--line;
+        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99); 
+        border: none;
+    }
+}

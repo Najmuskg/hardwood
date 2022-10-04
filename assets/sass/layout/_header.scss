@@ -1,0 +1,190 @@
+.header--area {
+    background-color: transparent;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    .inner--header {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
+        .contact--area {
+            display: flex;
+            justify-content: space-between;
+            padding: 16px 0 0 0;
+            a {
+                text-decoration: none;
+                color: #fff;
+                margin-right: 28px;
+                font-family: "Ofelia Std";
+                font-weight: 500;
+                font-style: normal;
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+            .fa-solid {
+                color: #fff;
+                width: 32px;
+                height: 32px;
+                border: 1px solid #fff;
+                font-size: 16px;
+                border-radius: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: -6px 0 0 -10px;
+                &:hover{
+                    background-color: $color--line;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99); 
+                }
+            }
+        }
+        .menu--area {
+            .menu--icon {
+                width: 37px;
+                height: 37px;
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                z-index: 991;
+                transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                overflow: hidden;
+                padding: 0;
+                position: fixed;
+                top: 48px;
+                display: block;
+                left: 162px;
+                &.active {
+                    display: none;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                }
+                i {
+                    background-color: #fff;
+                    width: 100%;
+                    height: 1px;
+                    display: block;
+                    margin-top: 8px;
+                    transition: all 0.3s ease-in-out;
+
+                    &:nth-child(1) {
+                        width: 27px;
+                    }
+                    &:nth-child(2) {
+                        width: 27px;
+                    }
+                    &:nth-child(3) {
+                        width: 27px;
+                    }
+                }
+            }
+        }
+
+        .nav {
+            @include bg-cover;
+            list-style: none;
+            position: fixed;
+            background-color: $color--bg;
+            color: #fff;
+            max-width: 28%;
+            height: 100%;
+            top: 0;
+            left: -100%;
+            transition: all 0.8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+            padding: 114px 0 0 0;
+            text-align: center;
+            &.active {
+                left: 0;
+                transition: all 0.8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                overflow: hidden;
+            }
+            .close--icon {
+                width: 37px;
+                height: 37px;
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                z-index: 991;
+                transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                top: -66px;
+                display: none;
+                left: 161px;
+                &.active {
+                    display: block;
+                }
+                i {
+                    background-color: #fff;
+                    width: 100%;
+                    height: 2px;
+                    display: block;
+                    margin-top: 8px;
+                    transition: all 0.3s ease-in-out;
+
+                    &:nth-child(1) {
+                        width: 27px;
+                        transform: rotate(40deg);
+                    }
+                    &:nth-child(2) {
+                        width: 27px;
+                        transform: rotate(-40deg);
+                        margin-top: -2px;
+                    }
+                    &:nth-child(3) {
+                        display: none;
+                    }
+                }
+            }
+
+            li {
+                margin-bottom: 40px;
+                width: 448px;
+                position: relative;
+                &:after {
+                    content: "";
+                    position: absolute;
+                    background-color: $color--line;
+                    top: 38px;
+                    left: 200px;
+                    width: 44px;
+                    height: 1px;
+                }
+                &:first-child::after {
+                    display: none;
+                }
+                &:last-child::after {
+                    display: none;
+                }
+            }
+            a {
+                font-family: "Ofelia Std";
+                font-weight: 500;
+                font-style: normal;
+                font-size: 13px;
+                line-height: 20px;
+                color: #fff;
+                z-index: 991;
+                text-transform: uppercase;
+            }
+          .links{
+            margin: 0 0 0 -30px;
+            a{
+               font-size: 17px;
+               
+              i{
+                margin: 50px 0 0 25px;
+                border: 1px solid #fff;
+                padding: 6px;
+                border-radius: 25px;
+                &:hover{
+                    background-color: $color--line;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                   }
+            }
+          }
+        }
+    }
+}
+}

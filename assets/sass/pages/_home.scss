@@ -1,0 +1,589 @@
+.banner--area {
+    @include bg-cover;
+    height: 100vh;
+    position: relative;
+    margin-bottom: 50px;
+    .inner--banner {
+        position: relative;
+        display: grid;
+        place-items: center;
+        top: 50%;
+        .banner--text {
+            text-align: center;
+            h1 {
+                color: #fff;
+                font-size: 52px;
+                font-family: "Frank Ruhl Libre";
+                font-weight: 500;
+                font-style: normal;
+                margin: 0 0 30px 0;
+            }
+            h4 {
+                font-size: 20px;
+                color: #fff;
+                font-family: "Ofelia Std";
+                font-weight: 500;
+                font-style: normal;
+                margin: 0 0 120px 0;
+                text-transform: uppercase;
+               
+            }
+            h3{
+                font-size: 36px;
+                font-family: "Frank Ruhl Libre";
+                font-weight: 500;
+                font-style: normal;
+                color: #fff;
+                margin: 0 0 25px 0; 
+            }
+            a {
+                text-decoration: none;
+                font-family: "Ofelia Std";
+                font-weight: 500;
+                font-style: normal;
+                color: #fff;
+                padding: 18px 40px;
+                border: 2px solid #fff;
+                text-transform: uppercase;
+                &:hover {
+                    background-color: $color--line;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+.current--area {
+    .inner--current {
+
+        .current--banner {
+            @include bg-cover;
+            height: 100vh;
+            padding: 25px;
+            .current--banner-text {
+                position: relative;
+                top: 88%;
+                h3 {
+                    font-size: 36px;
+                    font-family: "Frank Ruhl Libre";
+                    font-weight: 500;
+                    font-style: normal;
+                    color: #fff;
+                    margin: 0 0 25px 0;
+                }
+                ul {
+                    li {
+                        display: inline-block;
+                        margin-right: 15px;
+                        color: #fff;
+                        font-size: 16px;
+                        position: relative;
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            background-color: #fff;
+                            top: 5px;
+                            right: -11px;
+                            width: 2px;
+                            height: 10px;
+                        }
+                        &:last-child::after {
+                            display: none;
+                        }
+                    }
+                }
+                a {
+                    float: right;
+                    top: -60px;
+                    position: relative;
+                }
+            }
+        }
+    }
+}
+
+.offer--area {
+    margin: 70px 0;
+    background-color: #111b2f;
+    @include bg-cover;
+    .inner--offer {
+        padding: 50px;
+        h5 {
+            color: #fff;
+            &::after {
+                right: 490px;
+                width: 200px;
+            }
+        }
+        .hover--box {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            .sales {
+                @include bg-cover;
+                width: 100%;
+                padding: 170px 0;
+                text-align: center;
+                position: relative;
+                padding: 150px 0 55px 0;
+                &:hover {
+                    padding: 100px 0;
+
+                    h3 {
+                        transform: translateY(-30px);
+                    }
+                    p {
+                        opacity: 1;
+                        transform: translateY(-30px);
+                        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    }
+                    a {
+                        opacity: 1;
+                        transform: translateX(-30px);
+                        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        background-color: #000000;
+                        top: 0;
+                        right: 0;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0.8;
+                        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    }
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    background-color: #000000;
+                    top: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.4;
+                }
+                h3 {
+                    font-size: 80px;
+                    color: #fff;
+                    font-family: "Better Friend";
+                    font-weight: normal;
+                    font-style: normal;
+                    margin: 30px 0 10px 0;
+                    z-index: 991;
+                    position: relative;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                }
+                p {
+                    max-width: 235px;
+                    color: #fff;
+                    margin: 0 0 40px 80px;
+                    z-index: 991;
+                    position: relative;
+                    opacity: 0;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                }
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #fff;
+                    z-index: 991;
+                    position: relative;
+                    opacity: 0;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                }
+            }
+            .Acquisition {
+                @include bg-cover;
+                width: 100%;
+                padding: 170px 0;
+                text-align: center;
+                position: relative;
+                padding: 150px 0 55px 0;
+                &:hover {
+                    padding: 100px 0;
+
+                    h3 {
+                        transform: translateY(-30px);
+                    }
+                    p {
+                        opacity: 1;
+                        transform: translateY(-30px);
+                        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    }
+                    a {
+                        opacity: 1;
+                        transform: translateY(-50px);
+                        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        background-color: #000000;
+                        top: 0;
+                        right: 0;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0.8;
+                        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    }
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    background-color: #000000;
+                    top: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.4;
+                }
+                h3 {
+                    font-size: 80px;
+                    color: #fff;
+                    font-family: "Better Friend";
+                    font-weight: normal;
+                    font-style: normal;
+                    margin: 30px 0 10px 0;
+                    z-index: 991;
+                    position: relative;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                }
+                p {
+                    max-width: 235px;
+                    color: #fff;
+                    margin: 0 0 40px 80px;
+                    z-index: 991;
+                    position: relative;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    opacity: 0;
+                }
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #fff;
+                    z-index: 991;
+                    position: relative;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    opacity: 0;
+                }
+            }
+            .Advisory {
+                @include bg-cover;
+                width: 100%;
+                padding: 170px 0;
+                text-align: center;
+                position: relative;
+                padding: 150px 0 55px 0;
+                &:hover {
+                    padding: 100px 0;
+
+                    h3 {
+                        transform: translateY(-30px);
+                    }
+                    p {
+                        opacity: 1;
+                        transform: translateY(-30px);
+                        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    }
+                    a {
+                        opacity: 1;
+                        transform: translateY(-30px);
+                        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    }
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        background-color: #000000;
+                        top: 0;
+                        right: 0;
+                        width: 100%;
+                        height: 100%;
+                        opacity: 0.8;
+                        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    }
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    background-color: #000000;
+                    top: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.4;
+                }
+                h3 {
+                    font-size: 80px;
+                    color: #fff;
+                    font-family: "Better Friend";
+                    font-weight: normal;
+                    font-style: normal;
+                    margin: 30px 0 10px 0;
+                    z-index: 991;
+                    position: relative;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                }
+                p {
+                    max-width: 235px;
+                    color: #fff;
+                    margin: 0 0 40px 80px;
+                    z-index: 991;
+                    position: relative;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    opacity: 0;
+                }
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #fff;
+                    z-index: 991;
+                    position: relative;
+                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+.team--area {
+    padding: 15px 0 128px 0;
+    @include bg-cover;
+
+    .inner--team {
+        display: flex;
+        justify-content: space-between;
+        .team--text {
+            max-width: 500px;
+            padding: 70px 0 0 50px;
+            h5 {
+             text-align: left;
+                &::after {
+                    right: 155px;
+                    width: 189px;
+                }
+            }
+            p {
+                font-family: "Frank Ruhl Libre";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 160%;
+                letter-spacing: 0.01em;
+                color: #111b2f;
+                opacity: 0.8;
+                max-width: 344px;
+                margin: 0 0 70px 0;
+            }
+            .team-text1 {
+                max-width: 300px;
+                margin: 0 0 20px 0;
+            }
+            a {
+                color: #111b2f;
+                border: 2px solid #111b2f;
+            }
+        }
+        .team--photo {
+            position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+                background-image: url(/assets/img/VectorTeam.png);
+                top: 62px;
+                right: -153px;
+                width: 100%;
+                height: 100%;
+                opacity: 0.8;
+            }
+            img {
+                margin-right: 50px;
+                position: relative;
+                z-index: 1;
+            }
+        }
+    }
+}
+
+.clients-demand--area {
+    padding: 70px 0 50px 0;
+    @include bg-cover;
+    background-color: #111b2f;
+    .inner--clients-demand {
+        h3 {
+            font-family: "Better Friend";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 102px;
+            text-align: center;
+            letter-spacing: 0.04em;
+            text-transform: capitalize;
+            color: #ffffff;
+            margin: 0 0 30px 0;
+        }
+        .swiper-wrapper {
+            .swiper-slide {
+                background-color: rgba(37, 46, 64, 0.7);
+                max-width: 352px;
+                height: 351px;
+                padding: 55px 0 0 71px;
+                margin: 0 10px 0 0;
+                img {
+                    margin: 0 0 35px 0;
+                }
+                p {
+                    font-family: "Frank Ruhl Libre";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 160%;
+                    letter-spacing: 0.01em;
+                    color: #ffffff;
+                    max-width: 254px;
+                    margin: 0 0 15px 0;
+                }
+                span {
+                    font-family: "Ofelia Std";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 17px;
+                    letter-spacing: 0.12em;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                }
+            }
+        }
+        .swiper-right-arrow {
+            color: #ffff;
+            font-size: 35px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .swiper-left-arrow {
+            color: #ffff;
+            font-size: 35px;
+            text-align: center;
+            margin: -40px 0 0 -104px;
+        }
+    }
+}
+
+.work--area {
+    padding: 70px 0 50px 0;
+    .inner--work {
+        h5 {
+            &::after {
+                right: 552px;
+                width: 188px; 
+            }
+        }
+        .swiper-wrapper {
+            .swiper-slide {
+                img {
+                    display: block;
+                }
+                .img--caption {
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 30px 0 0 0;
+                    .fa-instagram {
+                        color: #b4975a;
+                        font-size: 32px;
+                    }
+                    p {
+                        font-family: "Frank Ruhl Libre";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 160%;
+                        letter-spacing: 0.01em;
+                        color: #111b2f;
+                        opacity: 0.8;
+                        max-width: 343px;
+                        margin: -2px 40px 0 0;
+                    }
+                }
+            }
+        }
+
+        .swiper-right-arrow {
+            color: #000;
+            font-size: 35px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .swiper-left-arrow {
+            color: #000;
+            font-size: 35px;
+            text-align: center;
+            margin: -40px 0 0 -104px;
+        }
+    }
+}
+
+.get-touch--area {
+    @include bg-cover;
+    padding: 180px 0;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        background-color: #000000;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.3;
+        transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
+    }
+    .inner--get-touch {
+        display: grid;
+        place-items: center;
+        position: relative;
+        z-index: 991;
+        .touch--text {
+            width: 620px;
+            height: 334px;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(4px);
+            padding: 0 0 0 0;
+            text-align: center;
+            border-top: 4px solid $color--line;
+        }
+        h3 {
+            font-family: "Better Friend";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 102px;
+            text-align: center;
+            letter-spacing: 0.06em;
+            color: #111b2f;
+            margin: 35px 0 10px 0;
+        }
+        p {
+            font-family: "Frank Ruhl Libre";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            text-align: center;
+            letter-spacing: 0.01em;
+            color: #111b2f;
+            max-width: 496px;
+            margin: 0 0 52px 53px;
+        }
+        a {
+            border: 2px solid #111b2f;
+            color: #111b2f;
+        }
+    }
+}

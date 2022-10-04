@@ -1,0 +1,51 @@
+.footer--area {
+    padding: 40px 0;
+    @include bg-cover;
+    background-color: #111b2f;
+    border-top: 2px solid #B4975A;
+    .inner--footer {
+        display: grid;
+        place-items: center;
+        img{
+            margin-bottom: 45px;
+        }
+        .footer--navigations {
+            ul {
+                margin: 0 -38px 35px 0;
+                li {
+                    display: inline-block;
+                    margin: 0 40px 0 0;
+
+                    a {
+                        font-family: 'Ofelia Std';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 17px;
+                        text-align: center;
+                        letter-spacing: 0.12em;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+        .cookies--area{
+            ul{
+                margin: 0 -27px 0 0;
+                li{
+                    display: inline-block;
+                    margin: 0 35px 0 0;
+                    a{
+                        font-family: 'Frank Ruhl Libre';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 11px;
+                        line-height: 14px;
+                        color: #FFFFFF; 
+                    }
+                }
+            }
+        }
+    }
+}

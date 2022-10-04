@@ -1,0 +1,43 @@
+html,
+body,
+p,
+blockquote,
+figure,
+fieldset,
+textarea,
+iframe {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+img,
+embed,
+iframe:not(.instagram-media):not(.wp-embedded-content),
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}

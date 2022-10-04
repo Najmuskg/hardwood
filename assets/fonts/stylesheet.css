@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Ofelia Std Book';
+    src: url('OfeliaStd-BookItalic.woff2') format('woff2'),
+        url('OfeliaStd-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ofelia Std';
+    src: url('OfeliaStd-BoldItalic.woff2') format('woff2'),
+        url('OfeliaStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ofelia Std';
+    src: url('OfeliaStd-Bold.woff2') format('woff2'),
+        url('OfeliaStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ofelia Std Book';
+    src: url('OfeliaStd-Book.woff2') format('woff2'),
+        url('OfeliaStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ofelia Std';
+    src: url('OfeliaStd-Light.woff2') format('woff2'),
+        url('OfeliaStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ofelia Std';
+    src: url('OfeliaStd-LightItalic.woff2') format('woff2'),
+        url('OfeliaStd-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ofelia Std';
+    src: url('OfeliaStd-Ultralight.woff2') format('woff2'),
+        url('OfeliaStd-Ultralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ofelia Std';
+    src: url('OfeliaStd-Medium.woff2') format('woff2'),
+        url('OfeliaStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ofelia Std';
+    src: url('OfeliaStd-UltralightItalic.woff2') format('woff2'),
+        url('OfeliaStd-UltralightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ofelia Std';
+    src: url('OfeliaStd-MediumItalic.woff2') format('woff2'),
+        url('OfeliaStd-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Better Friend';
+    src: url('BetterFriend-Regular.woff2') format('woff2'),
+        url('BetterFriend-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Better Friend';
+    src: url('BetterFriend-Regular.woff2') format('woff2'),
+        url('BetterFriend-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Better Friend';
+    src: url('BetterFriend-Regular.woff2') format('woff2'),
+        url('BetterFriend-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Black.woff2') format('woff2'),
+        url('FrankRuhlLibre-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Bold.woff2') format('woff2'),
+        url('FrankRuhlLibre-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Light.woff2') format('woff2'),
+        url('FrankRuhlLibre-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Medium.woff2') format('woff2'),
+        url('FrankRuhlLibre-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Frank Ruhl Libre';
+    src: url('FrankRuhlLibre-Regular.woff2') format('woff2'),
+        url('FrankRuhlLibre-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+

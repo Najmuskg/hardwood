@@ -1,0 +1,29 @@
+// abstracts ======>
+@import "abstract/animations";
+@import "abstract/mixins";
+@import "abstract/variables";
+
+// base ======>
+@import "base/common";
+@import "base/fonts";
+@import "base/reset";
+
+// components ======>
+@import "components/buttons";
+
+
+// layout ======>
+@import "layout/footer";
+@import "layout/header";
+
+
+// pages ======>
+@import "pages/home";
+@import "pages/properties";
+@import "pages/record";
+@import "pages/team";
+
+// thems ======>
+
+
+// vendors ======>

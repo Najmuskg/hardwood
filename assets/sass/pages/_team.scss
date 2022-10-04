@@ -1,0 +1,45 @@
+.our--team {
+    padding: 20px 0;
+    .inner--our-team {
+        h5 {
+            margin: 0 0 30px 0;
+        }
+        p {
+            font-family: "Frank Ruhl Libre";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: center;
+            letter-spacing: 0.01em;
+            color: #ffffff;
+            max-width: 934px;
+            margin: -6px 0 0 -100px;
+        }
+    }
+}
+.team_mate {
+    background-color: transparent;
+    margin: 0;
+    .inner--team_mate {
+        padding: 0 0 70px 0;
+        h5 {
+            color: #000;
+        }
+    }
+}
+
+.swimming--area {
+    .inner--swimming {
+        .swimming--text {
+            h5 {
+                &::after {
+                    right: 129px;
+                    width: 170px;
+                }
+            }
+            .team-text1{
+                margin:  0 0 70px 0;
+            }
+        }
+    }
+}
