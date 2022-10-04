@@ -49,7 +49,7 @@ h5::after {
 
 @font-face {
   font-family: 'Ofelia Std Book';
-  src: url("OfeliaStd-BookItalic.woff2") format("woff2"), url("OfeliaStd-BookItalic.woff") format("woff");
+  src: url("../fonts/OfeliaStd-BookItalic.woff2") format("woff2"), url("../fonts/OfeliaStd-BookItalic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -57,7 +57,7 @@ h5::after {
 
 @font-face {
   font-family: 'Ofelia Std';
-  src: url("OfeliaStd-BoldItalic.woff2") format("woff2"), url("OfeliaStd-BoldItalic.woff") format("woff");
+  src: url("../fonts/OfeliaStd-BoldItalic.woff2") format("woff2"), url("../fonts/OfeliaStd-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -65,7 +65,7 @@ h5::after {
 
 @font-face {
   font-family: 'Ofelia Std';
-  src: url("OfeliaStd-Bold.woff2") format("woff2"), url("OfeliaStd-Bold.woff") format("woff");
+  src: url("../fonts/OfeliaStd-Bold.woff2") format("woff2"), url("../fonts/OfeliaStd-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -73,7 +73,7 @@ h5::after {
 
 @font-face {
   font-family: 'Ofelia Std Book';
-  src: url("OfeliaStd-Book.woff2") format("woff2"), url("OfeliaStd-Book.woff") format("woff");
+  src: url("../fonts/OfeliaStd-Book.woff2") format("woff2"), url("../fonts/OfeliaStd-Book.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -81,7 +81,7 @@ h5::after {
 
 @font-face {
   font-family: 'Ofelia Std';
-  src: url("OfeliaStd-Light.woff2") format("woff2"), url("OfeliaStd-Light.woff") format("woff");
+  src: url("../fonts/OfeliaStd-Light.woff2") format("woff2"), url("../fonts/OfeliaStd-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -89,7 +89,7 @@ h5::after {
 
 @font-face {
   font-family: 'Ofelia Std';
-  src: url("OfeliaStd-LightItalic.woff2") format("woff2"), url("OfeliaStd-LightItalic.woff") format("woff");
+  src: url("../fonts/OfeliaStd-LightItalic.woff2") format("woff2"), url("../fonts/OfeliaStd-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -97,7 +97,7 @@ h5::after {
 
 @font-face {
   font-family: 'Ofelia Std';
-  src: url("OfeliaStd-Ultralight.woff2") format("woff2"), url("OfeliaStd-Ultralight.woff") format("woff");
+  src: url("../fonts/OfeliaStd-Ultralight.woff2") format("woff2"), url("../fonts/OfeliaStd-Ultralight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -105,7 +105,7 @@ h5::after {
 
 @font-face {
   font-family: 'Ofelia Std';
-  src: url("/assets/fonts/OfeliaStd-Medium.woff2") format("woff2"), url("/assets/fonts/OfeliaStd-Medium.woff") format("woff");
+  src: url("../fonts/OfeliaStd-Medium.woff2") format("woff2"), url("../fonts/OfeliaStd-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -113,7 +113,7 @@ h5::after {
 
 @font-face {
   font-family: 'Ofelia Std';
-  src: url("/assets/fonts/OfeliaStd-UltralightItalic.woff2") format("woff2"), url("/assets/fonts/OfeliaStd-UltralightItalic.woff") format("woff");
+  src: url("../fonts/OfeliaStd-UltralightItalic.woff2") format("woff2"), url("../fonts/OfeliaStd-UltralightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
@@ -121,7 +121,7 @@ h5::after {
 
 @font-face {
   font-family: 'Ofelia Std';
-  src: url("/assets/fonts/OfeliaStd-MediumItalic.woff2") format("woff2"), url("/assets/fonts/OfeliaStd-MediumItalic.woff") format("woff");
+  src: url("../fonts/OfeliaStd-MediumItalic.woff2") format("woff2"), url("../fonts/OfeliaStd-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -129,7 +129,7 @@ h5::after {
 
 @font-face {
   font-family: 'Better Friend';
-  src: url("/assets/fonts/BetterFriend-Regular.woff2") format("woff2"), url("/assets/fonts/BetterFriend-Regular.woff") format("woff");
+  src: url("../fonts/BetterFriend-Regular.woff2") format("woff2"), url("../fonts/BetterFriend-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -137,7 +137,7 @@ h5::after {
 
 @font-face {
   font-family: 'Better Friend';
-  src: url("/assets/fonts/BetterFriend-Regular.woff2") format("woff2"), url("/assets/fonts/BetterFriend-Regular.woff") format("woff");
+  src: url("../fonts/BetterFriend-Regular.woff2") format("woff2"), url("../fonts/BetterFriend-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -145,7 +145,7 @@ h5::after {
 
 @font-face {
   font-family: 'Better Friend';
-  src: url("/assets/fonts/BetterFriend-Regular.woff2") format("woff2"), url("/assets/fonts/BetterFriend-Regular.woff") format("woff");
+  src: url("../fonts/BetterFriend-Regular.woff2") format("woff2"), url("../fonts/BetterFriend-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -153,7 +153,7 @@ h5::after {
 
 @font-face {
   font-family: 'Frank Ruhl Libre';
-  src: url("/assets/fonts/FrankRuhlLibre-Black.woff2") format("woff2"), url("/assets/fonts/FrankRuhlLibre-Black.woff") format("woff");
+  src: url("../fonts/FrankRuhlLibre-Black.woff2") format("woff2"), url("../fonts/FrankRuhlLibre-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -161,7 +161,7 @@ h5::after {
 
 @font-face {
   font-family: 'Frank Ruhl Libre';
-  src: url("/assets/fonts/FrankRuhlLibre-Bold.woff2") format("woff2"), url("/assets/fonts/FrankRuhlLibre-Bold.woff") format("woff");
+  src: url("../fonts/FrankRuhlLibre-Bold.woff2") format("woff2"), url("../fonts/FrankRuhlLibre-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -169,7 +169,7 @@ h5::after {
 
 @font-face {
   font-family: 'Frank Ruhl Libre';
-  src: url("/assets/fonts/FrankRuhlLibre-Light.woff2") format("woff2"), url("/assets/fonts/FrankRuhlLibre-Light.woff") format("woff");
+  src: url("../fonts/FrankRuhlLibre-Light.woff2") format("woff2"), url("../fonts/FrankRuhlLibre-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -177,7 +177,7 @@ h5::after {
 
 @font-face {
   font-family: 'Frank Ruhl Libre';
-  src: url("/assets/fonts/FrankRuhlLibre-Medium.woff2") format("woff2"), url("/assets/fonts/FrankRuhlLibre-Medium.woff") format("woff");
+  src: url("../fonts/FrankRuhlLibre-Medium.woff2") format("woff2"), url("../fonts/FrankRuhlLibre-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -185,7 +185,7 @@ h5::after {
 
 @font-face {
   font-family: 'Frank Ruhl Libre';
-  src: url("/assets/fonts/FrankRuhlLibre-Regular.woff2") format("woff2"), url("/assets/fonts/FrankRuhlLibre-Regular.woff") format("woff");
+  src: url("../fonts/FrankRuhlLibre-Regular.woff2") format("woff2"), url("../fonts/FrankRuhlLibre-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
