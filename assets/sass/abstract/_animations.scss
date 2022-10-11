@@ -1,3 +1,13 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
 @mixin animate-line {
     background-color: red;
     bottom: -8px;
@@ -53,3 +63,42 @@
     }
   }
   
+
+
+  @keyframes slide-words {
+    to {
+      transform:translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slideInFromBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+   
+    85% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateX(30%);
+      opacity: 0;
+    }
+    90% {
+      transform: translateX(30%);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }

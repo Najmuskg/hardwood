@@ -1,0 +1,26 @@
+.services--banner {
+    &::after {
+        opacity: 0;
+    }
+    .inner--services {
+        z-index: 0;
+    }
+}
+
+.services--offer{
+    .inner--services-offer{
+        p {
+            max-width: 942px;
+            left: 320px;
+            
+        }
+    }
+}
+
+.sales--text{
+    h5{
+        &::after{
+            
+        }
+    }
+}

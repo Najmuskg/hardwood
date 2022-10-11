@@ -32,12 +32,19 @@ video {
   max-width: 100%;
 }
 
-ul,li{
+ul,
+li {
   margin: 0;
   padding: 0;
 }
 
-.container{
-    max-width: 1280px;
-    margin: 0 auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  @include medium-screen {
+    max-width: 80%;
+
+  }
 }

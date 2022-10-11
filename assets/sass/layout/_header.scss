@@ -9,6 +9,12 @@
         display: flex;
         justify-content: space-between;
         padding: 40px 0;
+        .logo--area{
+            img{
+                max-width: 145px;
+                margin: -10px 0 0 -23px;
+            }
+        }
         .contact--area {
             display: flex;
             justify-content: space-between;
@@ -22,21 +28,25 @@
                 font-style: normal;
                 font-size: 14px;
                 text-transform: uppercase;
+                margin-top: 6px;
             }
             .fa-solid {
                 color: #fff;
                 width: 32px;
                 height: 32px;
-                border: 1px solid #fff;
                 font-size: 16px;
                 border-radius: 25px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin: -6px 0 0 -10px;
+                margin: -1px 0 0 -116px;
+                position: relative;
+                left: 102px;
+                background-color: #DE774F;
                 &:hover{
-                    background-color: $color--line;
-                    transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99); 
+                    background-color: transparent;
+                    border: 1px solid #fff;
+                    transition: all 0.5s ease-in-out; 
                 }
             }
         }
@@ -51,10 +61,10 @@
                 transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
                 overflow: hidden;
                 padding: 0;
-                position: fixed;
-                top: 48px;
+                position: relative;
+                top: 13px;
                 display: block;
-                left: 162px;
+                left: -102px;
                 &.active {
                     display: none;
                     transition: all 0.9s cubic-bezier(0.54, 0.35, 0.29, 0.99);
@@ -62,19 +72,19 @@
                 i {
                     background-color: #fff;
                     width: 100%;
-                    height: 1px;
+                    height: 2px;
                     display: block;
-                    margin-top: 8px;
+                    margin-top: 7px;
                     transition: all 0.3s ease-in-out;
 
                     &:nth-child(1) {
-                        width: 27px;
+                        width: 30px;
                     }
                     &:nth-child(2) {
-                        width: 27px;
+                        width: 30px;
                     }
                     &:nth-child(3) {
-                        width: 27px;
+                        width: 30px;
                     }
                 }
             }
@@ -91,7 +101,7 @@
             top: 0;
             left: -100%;
             transition: all 0.8s cubic-bezier(0.54, 0.35, 0.29, 0.99);
-            padding: 114px 0 0 0;
+            padding:77px 0 0 0;
             text-align: center;
             &.active {
                 left: 0;
@@ -109,9 +119,9 @@
                 overflow: hidden;
                 padding: 0;
                 position: relative;
-                top: -66px;
+                top: -48px;
                 display: none;
-                left: 161px;
+                left: 22px;
                 &.active {
                     display: block;
                 }
@@ -140,14 +150,14 @@
 
             li {
                 margin-bottom: 40px;
-                width: 448px;
+                width: 345px;
                 position: relative;
                 &:after {
                     content: "";
                     position: absolute;
                     background-color: $color--line;
                     top: 38px;
-                    left: 200px;
+                    left: 150px;
                     width: 44px;
                     height: 1px;
                 }
